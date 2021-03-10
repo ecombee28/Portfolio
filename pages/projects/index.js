@@ -65,33 +65,6 @@ const index = () => {
 
       <div className={`${projectStyle.box} `}>
         <div className={projectStyle.project_description}>
-          <h2>Matching Game</h2>
-          <p className={projectStyle.description}>
-            A card matching game created for up to two players. It was created
-            with the following technologies: JavaScript, HTML5, CSS, and PHP.
-          </p>
-          <div className={projectStyle.icon_wrapper}>
-            <img src="html5.png" alt="html5" />
-            <img src="css-3.png" alt="css3" />
-            <img src="php.png" alt="php" />
-          </div>
-          <a href={"./"} target="_blank">
-            <p className={projectStyle.source_code}>{`< Source Code />`} </p>
-          </a>
-          <a href={"https://combeecreations.com/matchgame/"} target="_blank">
-            <p className={projectStyle.demo}>
-              Launch Site
-              <FontAwesomeIcon
-                icon={faExternalLinkAlt}
-                className={projectStyle.code_icon}
-              ></FontAwesomeIcon>
-            </p>
-          </a>
-        </div>
-      </div>
-
-      <div className={`${projectStyle.box} `}>
-        <div className={projectStyle.project_description}>
           <h2>Card Dealing API</h2>
           <p className={projectStyle.description}>
             A card dealing API build with PHP Laravel. This is a great api if
@@ -128,12 +101,12 @@ const index = () => {
         <div className={projectStyle.project_description}>
           <h2>Signup Page</h2>
           <p className={projectStyle.description}>
-            This application shows what be done with user authentication. The
-            user will be asked to input a username, email, and password. The
+            This application shows what can be done with user authentication.
+            The user will be asked to input a username, email, and password. The
             application uses AJAX for database authentication to check if the
-            username and email address is not already in use. It also a password
-            requirement of a length, case, and number.It was created with the
-            following technologies: JavaScript,HTML5, CSS, and PHP.
+            username and email address is not already in use. It also has a
+            password requirement of a length, case, and number.It was created
+            with the following technologies: JavaScript,HTML5, CSS, and PHP.
           </p>
           <div className={projectStyle.icon_wrapper}>
             <img src="js.svg" alt="javascript" />
@@ -145,6 +118,33 @@ const index = () => {
             <p className={projectStyle.source_code}>{`< Source Code />`}</p>
           </a>
           <a href={"https://combeecreations.com/signUp/"} target="_blank">
+            <p className={projectStyle.demo}>
+              Launch Site
+              <FontAwesomeIcon
+                icon={faExternalLinkAlt}
+                className={projectStyle.code_icon}
+              ></FontAwesomeIcon>
+            </p>
+          </a>
+        </div>
+      </div>
+
+      <div className={`${projectStyle.box} `}>
+        <div className={projectStyle.project_description}>
+          <h2>Matching Game</h2>
+          <p className={projectStyle.description}>
+            A card matching game created for up to two players. It was created
+            with the following technologies: JavaScript, HTML5, CSS, and PHP.
+          </p>
+          <div className={projectStyle.icon_wrapper}>
+            <img src="html5.png" alt="html5" />
+            <img src="css-3.png" alt="css3" />
+            <img src="php.png" alt="php" />
+          </div>
+          <a href={"./"} target="_blank">
+            <p className={projectStyle.source_code}>{`< Source Code />`} </p>
+          </a>
+          <a href={"https://combeecreations.com/matchgame/"} target="_blank">
             <p className={projectStyle.demo}>
               Launch Site
               <FontAwesomeIcon

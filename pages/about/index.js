@@ -31,10 +31,21 @@ const About = () => {
           <h1 className={aboutStyle.title}>About Me</h1>
           <div className={aboutStyle.body_wrapper}>
             <p className={aboutStyle.body}>
-              I am Eric Combee and I am passionate about software. My desire for
+              I am passionate individual for life and software. My desire for
               learning never stops and that shows in the projects that I create.
-              I love to create software that the user can enjoy. When I am not
-              programming I enjoy spending time with my wife and three children.
+              I love to create software that the user can enjoy.My road to
+              becoming a developer as had many pot holes. I decided to go back
+              to college at the age of 28 while working a full time job. I
+              picked Computer Science because I have always loved computers and
+              I thought it would be cool to work with them on a daily basis, boy
+              was I in for a rude awaking. After many months of struggling to
+              comprehend what it meant to develop software I started to question
+              my decision of going back to school. With many long nights and my
+              wonderful wife by my side it started to become clear to me.It has
+              taken my longer then I had original intended but I can honestly
+              say that I love to learn and develop software.I have worked as a
+              Software Developer and Test Engineer for Honeywell the past two
+              years.
             </p>
           </div>
         </div>
