@@ -19,7 +19,7 @@ const Nav = () => {
           <Links href="/">
             <p className={navStyle.nav_links}>Home</p>
           </Links>
-          <Links href="/projects">
+          <Links href="/projects/">
             <p className={navStyle.nav_links}>Portfolio</p>
           </Links>
         </div>
@@ -28,10 +28,10 @@ const Nav = () => {
           <img src={`/ccLogo.png`} className={navStyle.logo} />
         </div>
         <div className={navStyle.right_nav}>
-          <Links href="/about">
+          <Links href="/about/">
             <p className={navStyle.nav_links}>About</p>
           </Links>
-          <Links href="/contact">
+          <Links href="/contact/">
             <p className={navStyle.nav_links}>Contact</p>
           </Links>
         </div>

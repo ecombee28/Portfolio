@@ -42,7 +42,7 @@ const About = () => {
               comprehend what it meant to develop software I started to question
               my decision of going back to school. With many long nights and my
               wonderful wife by my side it started to become clear to me.It has
-              taken my longer then I had original intended but I can honestly
+              taken me longer then I had original intended but I can honestly
               say that I love to learn and develop software.I have worked as a
               Software Developer and Test Engineer for Honeywell the past two
               years.
