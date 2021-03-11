@@ -68,9 +68,9 @@ const index = () => {
           <h2>Card Dealing API</h2>
           <p className={projectStyle.description}>
             A card dealing API build with PHP Laravel. This is a great api if
-            you are want to build a card game Poker or Blackjack. This API
-            deals, shuffles, reorders, keeps track of your discarded cards, and
-            keeps track of a 52 card deck.
+            you are wanting to build a card game like poker or blackjack. This
+            API deals, shuffles, reorders, keeps track of your discarded cards,
+            and keeps track of a 52 card deck.
           </p>
           <div className={projectStyle.icon_wrapper}>
             <img src="laravel.png" alt="laravel" />
