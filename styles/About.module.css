@@ -6,7 +6,7 @@
     justify-content: space-evenly;
     align-items: center;
     border-radius: 15px;
-    margin: 150px auto 0px auto;
+    margin: 150px auto 30px auto;
     transform: translateX(-50%);
     background: rgb(29, 30, 156);
     background: linear-gradient(128deg, rgba(29, 30, 156, .2) 14%, rgba(255, 71, 26, .2) 94%);

@@ -19,6 +19,7 @@
     align-items: center;
     overflow: hidden;
     padding: 10px 12px 60px 12px;
+    margin-bottom: 30px;
     border-radius: 15px;
     background: rgb(29, 30, 156);
     background: linear-gradient(128deg, rgba(29, 30, 156, .2) 14%, rgba(255, 71, 26, .2) 94%);
