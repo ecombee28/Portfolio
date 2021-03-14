@@ -15,6 +15,7 @@ awesome.min.css"
 wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
           crossOrigin="anonymous"
         ></link>
+
         <script src="https://smtpjs.com/v3/smtp.js"></script>
       </Head>
       <Banner />

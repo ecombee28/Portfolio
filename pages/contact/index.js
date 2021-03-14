@@ -67,23 +67,11 @@ const Contact = () => {
 
           <div className={contactStyle.contact_info}>
             <div className={contactStyle.mini_wrapper}>
-              <FontAwesomeIcon
-                icon={faEnvelope}
-                className={contactStyle.email_icon}
-              ></FontAwesomeIcon>
-              <a
-                href="mailto:ecombee28@gmail.com"
-                className={contactStyle.email}
-              >
-                Ecombee28@gmail.com
-              </a>
-            </div>
-            <div className={contactStyle.mini_wrapper}>
-              <FontAwesomeIcon
-                icon={faPaperclip}
-                className={contactStyle.email_icon}
-              ></FontAwesomeIcon>
               <a href={pdf} target="_blank" className={contactStyle.email}>
+                <FontAwesomeIcon
+                  icon={faPaperclip}
+                  className={contactStyle.email_icon}
+                ></FontAwesomeIcon>
                 Resume
               </a>
             </div>
