@@ -51,11 +51,11 @@ const Contact = () => {
   const pdf = "https://combeecreations.com/resume/resume.pdf";
 
   return (
-    <section
+    <motion.section
       className={contactStyle.contact_wrapper}
-      // variants={containerVariants}
-      // initial="hidden"
-      // animate="visible"
+      variants={containerVariants}
+      initial="hidden"
+      animate="visible"
     >
       <div className={contactStyle.container}>
         <div className={contactStyle.left_content}>
@@ -147,7 +147,7 @@ const Contact = () => {
           </form>
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 };
 
