@@ -29,7 +29,6 @@ const NavBar = () => {
       <div className={style.nav_options}>
         <Links href="/projects">
           <p className={style.links}>
-            {" "}
             <FontAwesomeIcon icon={faLaptopCode} className={style.icon} />
             Projects
           </p>
@@ -38,7 +37,6 @@ const NavBar = () => {
       <div className={style.nav_options}>
         <Links href="/about">
           <p className={style.links}>
-            {" "}
             <FontAwesomeIcon icon={faAddressCard} className={style.icon} />
             About
           </p>
@@ -47,7 +45,6 @@ const NavBar = () => {
       <div className={style.nav_options}>
         <Links href="/contact">
           <p className={style.links}>
-            {" "}
             <FontAwesomeIcon icon={faPhoneSquare} className={style.icon} />
             Contact
           </p>
