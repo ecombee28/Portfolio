@@ -10,7 +10,7 @@ const Nav = () => {
     e.scrollIntoView();
   };
 
-  const pdf = "https://combeecreations.com/resume/timesheet_2.pdf";
+  const pdf = "https://combeecreations.com/resume/resume.pdf";
 
   return (
     <>
