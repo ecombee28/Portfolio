@@ -90,7 +90,7 @@
 .description {
     width: 100%;
     height: auto;
-    font-size: clamp(.9rem, 1.06rem, 1vw);
+    font-size: clamp(.9rem, 1.09rem, 1vw);
     letter-spacing: .04em;
     z-index: 20;
     padding: 10px;
