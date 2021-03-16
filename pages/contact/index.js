@@ -35,15 +35,15 @@ const Contact = () => {
   const containerVariants = {
     hidden: {
       opacity: 0,
-      x: "100vh",
+      y: "2vh",
     },
     visible: {
       opacity: 1,
-      x: 0,
+      y: 0,
       transition: {
-        type: "spring",
-        delay: 0.3,
-        stiffness: 80,
+        type: "tween",
+        delay: 0.2,
+        duration: 1,
       },
     },
   };
