@@ -46,7 +46,8 @@
         align-items: center;
     }
     .nav_options .icon {
-        font-size: 22px;
+        width: 35px;
+        object-fit: contain;
         color: #ffffffff;
     }
 }
