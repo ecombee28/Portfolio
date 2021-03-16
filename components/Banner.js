@@ -9,9 +9,6 @@ import { motion } from "framer-motion";
 const Banner = () => {
   return (
     <>
-      <div className={bannerStyle.big_logo}>
-        <img src="/ccLogo.png" alt="" />
-      </div>
       <motion.div
         className={bannerStyle.title}
         initial={{ opacity: 0, y: "5vh" }}

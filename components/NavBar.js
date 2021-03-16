@@ -19,27 +19,38 @@ const NavBar = () => {
   return (
     <div className={style.nav_bar}>
       <div className={style.nav_options}>
-        <FontAwesomeIcon icon={faHome} className={style.icon} />
         <Links href="/">
-          <p className={style.links}>Home</p>
+          <p className={style.links}>
+            <FontAwesomeIcon icon={faHome} className={style.icon} />
+            Home
+          </p>
         </Links>
       </div>
       <div className={style.nav_options}>
-        <FontAwesomeIcon icon={faLaptopCode} className={style.icon} />
         <Links href="/projects">
-          <p className={style.links}>Projects</p>
+          <p className={style.links}>
+            {" "}
+            <FontAwesomeIcon icon={faLaptopCode} className={style.icon} />
+            Projects
+          </p>
         </Links>
       </div>
       <div className={style.nav_options}>
-        <FontAwesomeIcon icon={faAddressCard} className={style.icon} />
         <Links href="/about">
-          <p className={style.links}>About</p>
+          <p className={style.links}>
+            {" "}
+            <FontAwesomeIcon icon={faAddressCard} className={style.icon} />
+            About
+          </p>
         </Links>
       </div>
       <div className={style.nav_options}>
-        <FontAwesomeIcon icon={faPhoneSquare} className={style.icon} />
         <Links href="/contact">
-          <p className={style.links}>Contact</p>
+          <p className={style.links}>
+            {" "}
+            <FontAwesomeIcon icon={faPhoneSquare} className={style.icon} />
+            Contact
+          </p>
         </Links>
       </div>
     </div>

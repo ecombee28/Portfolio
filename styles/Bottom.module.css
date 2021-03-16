@@ -40,6 +40,10 @@
         color: #fff;
         font-size: .7em;
         text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     .nav_options .icon {
         font-size: 22px;
