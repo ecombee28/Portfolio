@@ -40,16 +40,17 @@ const index = () => {
               for all movie resources. This application was created with the
               following technologies: Next.js, HTML5, and CSS.
             </p>
-            <div className={projectStyle.icon_wrapper}>
-              <img
-                src="next-js.svg"
-                alt="next.js"
-                className={projectStyle.reverse_image}
-              />
-              <img src="html5.png" alt="html5" />
-              <img src="css-3.png" alt="css3" />
-            </div>
-
+          </div>
+          <div className={projectStyle.icon_wrapper}>
+            <img
+              src="next-js.svg"
+              alt="next.js"
+              className={projectStyle.reverse_image}
+            />
+            <img src="html5.png" alt="html5" />
+            <img src="css-3.png" alt="css3" />
+          </div>
+          <div className={projectStyle.launch_wrapper}>
             <a href={"https://github.com/ecombee28/EMDB"} target="_blank">
               <p className={projectStyle.source_code}>{`< Source Code />`}</p>
             </a>
@@ -74,10 +75,12 @@ const index = () => {
               API deals, shuffles, reorders, keeps track of your discarded
               cards, and keeps track of a 52 card deck.
             </p>
-            <div className={projectStyle.icon_wrapper}>
-              <img src="laravel.png" alt="laravel" />
-              <img src="php.png" alt="php" />
-            </div>
+          </div>
+          <div className={projectStyle.icon_wrapper}>
+            <img src="laravel.png" alt="laravel" />
+            <img src="php.png" alt="php" />
+          </div>
+          <div className={projectStyle.launch_wrapper}>
             <a
               href={"https://github.com/ecombee28/Card-Dealing-API"}
               target="_blank"
@@ -111,12 +114,14 @@ const index = () => {
               created with the following technologies: JavaScript,HTML5, CSS,
               and PHP.
             </p>
-            <div className={projectStyle.icon_wrapper}>
-              <img src="js.svg" alt="javascript" />
-              <img src="html5.png" alt="html5" />
-              <img src="css-3.png" alt="css3" />
-              <img src="php.png" alt="php" />
-            </div>
+          </div>
+          <div className={projectStyle.icon_wrapper}>
+            <img src="js.svg" alt="javascript" />
+            <img src="html5.png" alt="html5" />
+            <img src="css-3.png" alt="css3" />
+            <img src="php.png" alt="php" />
+          </div>
+          <div className={projectStyle.launch_wrapper}>
             <a href={"https://github.com/ecombee28/Sign-Up"} target="_blank">
               <p className={projectStyle.source_code}>{`< Source Code />`}</p>
             </a>
@@ -139,11 +144,13 @@ const index = () => {
               A card matching game created for up to two players. It was created
               with the following technologies: JavaScript, HTML5, CSS, and PHP.
             </p>
-            <div className={projectStyle.icon_wrapper}>
-              <img src="html5.png" alt="html5" />
-              <img src="css-3.png" alt="css3" />
-              <img src="php.png" alt="php" />
-            </div>
+          </div>
+          <div className={projectStyle.icon_wrapper}>
+            <img src="html5.png" alt="html5" />
+            <img src="css-3.png" alt="css3" />
+            <img src="php.png" alt="php" />
+          </div>
+          <div className={projectStyle.launch_wrapper}>
             <a href={"./"} target="_blank">
               <p className={projectStyle.source_code}>{`< Source Code />`} </p>
             </a>

@@ -1,8 +1,5 @@
-import React, { useState } from "react";
+import React from "react";
 import bannerStyle from "../styles/Banner.module.css";
-import { library } from "@fortawesome/fontawesome-svg-core";
-import { faArrowDown } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Links from "next/link";
 import { motion } from "framer-motion";
 

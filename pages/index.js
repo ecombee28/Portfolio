@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Banner from "../components/Banner";
+import HomePage from "../components/Banner";
 
 export default function Home() {
   return (
@@ -18,7 +18,8 @@ wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
 
         <script src="https://smtpjs.com/v3/smtp.js"></script>
       </Head>
-      <Banner />
+
+      <HomePage />
     </div>
   );
 }
